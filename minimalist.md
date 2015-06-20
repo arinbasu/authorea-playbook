@@ -29,6 +29,18 @@ What is the minimalist set up that we need to get this going? Here are three str
 3. Everyone uses git to push changes after they work on their own sections
 4. The final document can be fine tuned
 
+## Basic requirements
+
+1. Set up a git client (GUI client) by visiting [here](https://git-scm.com/download/gui/linux)
+2. Write everything in plain text and save the files in .md file. Which means they will need to write everything in say notepad in Windows of if they write in word, then they will need to remember to save everything as a text file. 
+3. After installing the git GUI client, they will need to designate a folder added to the Github client
+4. Save all files related to the project in the folder and learn to push commit and sync.
+
+This is unfortunately more complex than writing in Word and using Endnote and copy pasting analyses tables from whatever platforms to their word processors and sending versions with names as such, see
+![notfinal](http://www.phdcomics.com/comics/archive/phd101212s.gif) but hope this will work. 
+
+
+
 
 
 
