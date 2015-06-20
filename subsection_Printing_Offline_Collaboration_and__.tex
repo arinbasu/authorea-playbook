@@ -1,0 +1,49 @@
+\subsection{Printing, Offline, Collaboration, and Versioning}
+
+In any writing such as this (provided that you have accepted that you will make some minor changes in your strategy to accept other people using Authorea and you will let them use Authorea and be part of the team), there are a few considerations to which we turn next:
+
+\begin{enumerate}
+\item We need to have a strategy for people who'd like to read any writing in print and then comment on that
+\item How do we synchronise offline and online writing using Authorea
+\item How do we ensure that version controlling is done flawlessly?
+\item How do we \textbf{actually} collaborate with people writing in their own environments? That is, not forcing everyone to give up writing in Word and embracing Authorea?
+\end{enumerate}
+
+\subsubsection{Printing off Authorea}
+
+Let's take the first issue and think of some strategies. Most of my friends, given a document sent over email, would prefer to print out the document and read it. Authorea documentation does not write about it as their emphasis is on making it look good on html screens, but just hitting the print button from the browser should work just fine. It is assumed that you use a browser to surf the web, and in this case, it does not matter what browser you use to view a document authored in Authorea. I have tried using very primitive browsers and old first generation ipads, low spec linux machines, etc to view documents created in Authorea and I still find they look good on screen, and I can easily print from them. Use the print preview view to check the page count and you can set the printing parameters. In that sense, Authorea authored documents are pretty much wysiwyg documents. There is nothing really special to be covered here. Just print and read as you would using Word or any other word processing software or any web document really. 
+
+\subsubsection{Offline synchronisation}
+
+This is where it gets a little technical. This is where we need a robust strategy for working:
+
+\begin{enumerate}
+\item Ideally one person takes responsibility to set up the document first
+\item As soon as the document is set up on Authorea, need to set up a git linkage. As git is where the synchronisation and all offline/online etc work gets done. I have not seen that we can use Authorea with Dropbox or some other service and Authorea itself does not have a facility to allow users to work offline. Perhaps something that can be written as a feature request to them.
+\item If all team members have access to github and github or bitbucket accounts, great. 
+\item Otherwise, rather than forcing everyone to have github or bitbucket git accounts and ask them to use git, just the \textbf{maintainer} or one person who is allowed the \textbf{administrator} status for the document goes ahead and takes responsibility to set up the git bridge with the parent document on Authorea
+\item If everyone in the team has accounts set up on github or otherwise works through git, that should work OK. Otherwise, changes can be mailed to the administrator who will only need to push and pull through git when connection is established.
+\item Offline work is best done through using plain text to write and then once connection is established using git to update the system
+\item Authorea has an excellent \href{https://www.authorea.com/users/3/articles/17235/_show_article}{introduction on using Git with Authorea} that can be consulted.
+\item For use of git itself, \href{https://git-scm.com/book/en/v2/Getting-Started-Git-Basics}{Scott Chacon has written a free book} that can be very helpful for this, but it can get quite technical. 
+\item So a simple strategy might be that one or members use github to maintain the site for the project. People who will work on the document just keep editing and send without changing names of the files to the one maintainer and the maintainer or administrator to upload or sync with Authorea and git etc
+\item The other, low-tech, somewhat inefficient option is to download the zip file from the project, unpack it in your computer, pick up a file and write on the file on your machine in your preferred app, and then reupload the file in the folder space. Otherwise, the best strategy is to wait for when you become online and then directly edit on the site itself. 
+\end{enumerate}
+
+\subsection{How to collaborate with People who will not listen to you and keep sending word documents where they are most comfortable writing}
+
+There are a few issues here. A few people will refuse to work with you in principle and do something as follows:
+
+\begin{enumerate}
+\item They will not register an account with Authorea despite knowing that it is a risk free, free account that they can cancel anytime. If that happens you cannot do much except sending them the word document that they are going to work on and send you back their comments. And then work manually to upload everything and keep sending them the link where you will have put your remarks on which they can work. However, if you have set up a private Authorea document, this is not going to work with them as they will not be able to view that Authorea document and you are stuck. 
+\item They may register an account but will not use Authorea at all despite requests and asking them that they can comment or add stuff on Authorea. Again, I find what works for me is to post my changes in Authorea and share the link of the document with them and ask them to please use the page. They may not agree; in that case, keep receiving the word document from them and then upload their contribution to the relevant section (or their suggested changes) and continue. More work for the administrator or the leader, but change happens slowly or if ever. The resistant person will continue to work in his or her own way. Flexibility is the key here. 
+\item People can register, try using and will break the system. No problems here, as you can use the version control in built with Authorea and correct errors. This is hopefully the easy bit.
+\item Sticking the bibliography bit is often a major issue with some collaborators as many people are not familiar with the BibTeX format and do not know their usage. They are happy with the Endnote or similar easy to use version of their bibliography management. Some manual tweaking is necessary. Perhaps creating a bibliography section early on and letting them stick their text bibliograhy or citation there will work. Later on, hand-hold and show them how to use BibTeX with Authorea. \href{https://www.authorea.com/users/9932/articles/12628/_show_article}{Authorea help files have an excellent tutorial to import and work with references here} worth exploring. 
+\end{enumerate}
+
+There are obviously some issues about bringing people out of their comfort zones to work with you and show them how easy it is really to work with this system. Once a hands-on show and tell occurs, it may help. Or then again, may not. The challenge is to see how the user here can adapt to other people's working styles to let them continue with their practices as long as they want till they switch over, and still be productive. 
+
+
+
+
+    
