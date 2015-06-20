@@ -36,8 +36,9 @@ What is the minimalist set up that we need to get this going? Here are three str
 3. After installing the git GUI client, they will need to designate a folder added to the Github client
 4. Save all files related to the project in the folder and learn to push commit and sync.
 
-This is unfortunately more complex than writing in Word and using Endnote and copy pasting analyses tables from whatever platforms to their word processors and sending versions with names as such, see
-![notfinal](http://www.phdcomics.com/comics/archive/phd101212s.gif) but hope this will work. 
+This is unfortunately more complex than writing in Word and using Endnote and copy pasting analyses tables from whatever platforms to their word processors and sending versions with names as such, let's hope this will work. Else, see
+
+![notfinal](http://www.phdcomics.com/comics/archive/phd101212s.gif)  
 
 
 
@@ -45,5 +46,6 @@ This is unfortunately more complex than writing in Word and using Endnote and co
 
 
 
+    
     
     
